@@ -119,13 +119,13 @@ npm run test
 ### Build the image
 
 ```bash
-docker build -t multi-level-category-backend .
+docker build -t -multi-level-category-backend .
 ```
 
 ### Run the container
 
 ```bash
-docker run -p 5000:5000 --env-file .env multi-level-category-backend
+docker run -p 5000:5000 --env-file .env -multi-level-category-backend
 ```
 
 ---
