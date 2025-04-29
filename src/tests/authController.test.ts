@@ -28,8 +28,8 @@ describe('Auth API', () => {
 
   it('should not login with invalid credentials', async () => {
     const res = await request.post('/api/auth/login').send({
-      email: 'wrong@example.com',
-      password: 'password123',
+      email: 'test@example.com',
+      password: 'testpassword',
     });
     expect(res.status).toBe(400);
   });
