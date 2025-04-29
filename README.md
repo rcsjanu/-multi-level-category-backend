@@ -24,7 +24,7 @@ A scalable backend API built with **Node.js**, **Express**, **TypeScript**, **Mo
 ### 1. Clone and Install Dependencies
 
 ```bash
-git clone https://github.com/your-username/multi-level-category-backend.git
+git clone https://github.com/rcsjanu/multi-level-category-backend.git
 cd multi-level-category-backend
 npm install
 ```
